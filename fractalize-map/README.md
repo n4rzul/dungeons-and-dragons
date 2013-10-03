@@ -36,11 +36,11 @@ It accepts two optional arguments (well... If you have one, you have to have the
 * CHANGE_SCALE
 * SUBDIVISIONS
 
-* CHANGE_SCALE *
+# CHANGE_SCALE
 
 This changes how much variation there is with each point. A larger value will make very large changes every time it subdivides. I find that 0.005 works pretty well.
 
-* SUBDIVISIONS *
+# SUBDIVISIONS
 
 This changes how many times it subdivides the line. If you set this equal to 100, it will split each line segment 100 times and fractalize those new points.  I usually use 1000 here.
 
