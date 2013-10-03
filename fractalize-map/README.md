@@ -1,4 +1,4 @@
-** Fractalize Map **
+## Fractalize Map
 
 There's two main files in this program:
 
@@ -11,7 +11,7 @@ The second one takes those points and fractalizes them.
 
 ----
 
-** record-clicks.html **
+## record-clicks.html
 
 To use record-clicks.html, first open it in your browser (I used Firefox). It relies on jQuery, but loading the files locally wasn't making Firefox happy, so open the console and type:
 
@@ -25,7 +25,7 @@ then paste the copied text into your terminal to convert it into the right forma
 
 ----
 
-** fractalize-map.py **
+## fractalize-map.py
 
 Using this one is as simple as just running:
 
