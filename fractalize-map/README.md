@@ -1,4 +1,4 @@
-## Fractalize Map
+# Fractalize Map
 
 There's two main files in this program:
 
@@ -11,7 +11,7 @@ The second one takes those points and fractalizes them.
 
 ----
 
-## record-clicks.html
+# record-clicks.html
 
 To use record-clicks.html, first open it in your browser (I used Firefox). It relies on jQuery, but loading the files locally wasn't making Firefox happy, so open the console and type:
 
@@ -25,7 +25,7 @@ then paste the copied text into your terminal to convert it into the right forma
 
 ----
 
-## fractalize-map.py
+# fractalize-map.py
 
 Using this one is as simple as just running:
 
@@ -36,11 +36,11 @@ It accepts two optional arguments (well... If you have one, you have to have the
 * CHANGE_SCALE
 * SUBDIVISIONS
 
-# CHANGE_SCALE
+**CHANGE_SCALE**
 
 This changes how much variation there is with each point. A larger value will make very large changes every time it subdivides. I find that 0.005 works pretty well.
 
-# SUBDIVISIONS
+**SUBDIVISIONS**
 
 This changes how many times it subdivides the line. If you set this equal to 100, it will split each line segment 100 times and fractalize those new points.  I usually use 1000 here.
 
